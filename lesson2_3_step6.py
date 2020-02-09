@@ -14,7 +14,7 @@ try:
     # нажать на кропку
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
-
+    #Switch to a new window
     new_window = browser.window_handles[1]
     browser.switch_to.window(new_window)
 
